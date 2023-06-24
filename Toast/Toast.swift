@@ -86,8 +86,6 @@ fileprivate class ToastView: UIView {
         messageLabel.numberOfLines = 5
         messageLabel.textAlignment = .left
         messageLabel.font = .systemFont(ofSize: 16, weight: .medium)
-        messageLabel.adjustsFontSizeToFitWidth = true
-        messageLabel.minimumScaleFactor = 8
         messageLabel.translatesAutoresizingMaskIntoConstraints = false
         return messageLabel
     }()
